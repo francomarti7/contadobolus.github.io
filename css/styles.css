@@ -131,6 +131,56 @@ a{
     }
 
     h1 {
+        font-size: 50px;
+    }
+
+    #counter{
+        font-size: 150px;
+        margin: 15px 25px;
+        
+    }
+
+    img{
+        width: 110px;
+        border-radius: 200px;
+        
+}
+}
+
+
+
+@media only screen and (max-width: 321px) {
+
+    html{
+        max-height: 321px;
+        height: auto;
+        width: auto;
+    }
+
+    h1 {
         font-size: 30px;
     }
+
+    #counter{
+        font-size: 150px;
+        margin: 15px 25px;
+        
+    }
+
+    footer{
+        width: 100%;
+        height: 100%;
+        background-color: #222831;
+        padding: 20px 0 0 0;
+    }
+    
+    .botones{
+        height: 170px; 
+    }
+
+    img{
+        width: 100px;
+        border-radius: 200px;
+        
+}
 }
