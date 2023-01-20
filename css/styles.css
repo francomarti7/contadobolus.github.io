@@ -3,6 +3,7 @@
 
 
 body{
+    font-family: 'Montserrat', sans-serif;
     background-color: #222831;
     /*393E46*/
 }
@@ -60,7 +61,7 @@ img{
     
 }
 
-button{
+.botones button{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     width: 190px;
