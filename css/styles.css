@@ -1,5 +1,7 @@
 
 
+
+
 body{
     background-color: #222831;
     /*393E46*/
@@ -73,11 +75,21 @@ button{
  background-color: #00ADB5;
 }
 
+#agregar:hover{
+    background-color: #006f75;
+    transition: 0.2s;
+}
+
+
 #fin{
     color: #000000;
     background-color: #EEEEEE;
 }
 
+#fin:hover{
+    background-color: #b6b4b4;
+    transition: 0.2s;
+}
 
 footer{
     width: 100%;
@@ -110,3 +122,15 @@ a{
     margin: 0 5px;
 }
 
+@media only screen and (max-width: 720px) {
+
+    html{
+        max-height: 720px;
+        height: auto;
+        width: auto;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
