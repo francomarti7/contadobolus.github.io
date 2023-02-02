@@ -199,3 +199,117 @@ a{
         
 }
 }
+
+/* ESTILO PARA APPLE*/
+/* iPhones */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+  
+  .contenedor-principal {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-principal {
+    display: flex;
+    flex-direction: column;
+display:none;
+    
+  }
+}
+
+
+/* iPads */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .contenedor-principal {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-principal {
+    display: flex;
+    flex-direction: column;
+display:none;
+    
+  }
+}
+
+
+/* iPhones X and above */
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) {
+  .contenedor-principal {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-principal {
+    display: flex;
+    flex-direction: column;
+display:none;
+    
+  }
+}
+
+/* ESTILO ANDROID */
+/* Samsung Galaxy S5 */
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+  .contenedor-principal {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-principal {
+    display: flex;
+    flex-direction: column;
+display:none;
+    
+  }
+}
+
+/* Google Nexus 7 */
+@media only screen and (min-device-width : 600px) and (max-device-width : 960px) {
+  .contenedor-principal {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-principal {
+    display: flex;
+    flex-direction: column;
+display:none;
+    
+  }
+}
+
+/* Samsung Galaxy S9 */
+@media only screen and (min-device-width : 1440px) and (max-device-width : 2960px) {
+  .contenedor-principal {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-principal {
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+
+
+/* ESTILO PARA DESKTOP */
+/* Resolución HD (1280 x 720 píxeles) */
+
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
+  /* CSS rules */
+}
+
+/* Resolución Full HD (1920 x 1080 píxeles) */
+
+@media only screen and (min-width: 1920px) and (max-width: 2048px) {
+  /* CSS rules */
+}
+
+/* Resolución Full HD (1920 x 1080 píxeles) */
+
+@media only screen and (min-width: 2560px) and (max-width: 2880px) {
+  /* CSS rules */
+}
+
+/* Resolución Full HD (1920 x 1080 píxeles) */
+
+@media only screen and (min-width: 3840px) {
+  /* CSS rules */
+}
